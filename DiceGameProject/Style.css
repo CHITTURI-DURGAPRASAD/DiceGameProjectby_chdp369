@@ -1,0 +1,161 @@
+
+
+body 
+{
+
+  
+  font-family: "Viaoda Libre", cursive;
+  width: 100%;
+  background-image: url("DiceImages/DiceGameBackground.jpg") ;
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
+
+}
+
+.container
+ {
+
+  width: 60%;
+  margin: auto;
+  text-align: center;
+
+}
+
+.dice 
+{
+
+  text-align: center;
+  display: inline-block;
+
+}
+
+h1 
+{
+
+  margin: 20px;
+  text-shadow: 5px 0 #191c20;
+  font-size: 3rem;
+  color: #ebde29;
+  text-align: center;
+  
+}
+h4
+{
+  font-size: 1rem;
+  position: relative;
+  padding-top: 2.5%;
+}
+
+p 
+{
+
+  font-size: 2rem;
+  color: #ebde29;
+
+}
+
+img 
+{
+  
+  width: 55%;
+  
+}
+
+button 
+{
+  width: 25%;
+  height: 3.5rem; 
+  outline: none;
+  border-radius: 1rem;
+  background-color: #ebde29;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  margin: 5% 50% 0% 40%;
+  
+}
+
+.foot 
+{
+
+  background-color: #ebde29;
+  display: inline;
+  text-align: center;
+  
+}
+
+
+.image360
+{
+
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+
+  -moz-animation-name: spin;
+  -moz-animation-duration: 0.5s;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: linear;
+
+  -ms-animation-name: spin;
+  -ms-animation-duration: 0.5s;
+  -ms-animation-iteration-count: 1;
+  -ms-animation-timing-function: linear;
+
+  animation-name: spin;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+
+}
+
+@-moz-keyframes spin 
+{
+
+  from 
+  {
+    -moz-transform: rotate(0deg);
+  }
+  to
+  {
+    -moz-transform: rotate(360deg);
+  }
+
+}
+
+@-webkit-keyframes spin
+{
+
+  from 
+  {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to 
+  {
+    -webkit-transform: rotate(360deg);
+  }
+
+}
+
+@keyframes spin 
+{
+
+  from 
+  {
+    transform: rotate(0deg);
+  }
+
+  to 
+  {
+    transform: rotate(360deg);
+  }
+
+}
